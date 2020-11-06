@@ -1,0 +1,6 @@
+Reference, Value, Footprint, Datasheet
+"U1","MPXV7025DP","Sensor_Pressure:MPXV7025DP",""
+"C1","1.0 uF","Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder","~"
+"C2","0.01 uF","Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder","~"
+"C3","470 pF","Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder","~"
+"J1","Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"

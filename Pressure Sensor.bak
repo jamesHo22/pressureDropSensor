@@ -1,0 +1,151 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Pressure:MPXV7025DP U1
+U 1 1 5FA48309
+P 5750 3550
+F 0 "U1" H 5750 4015 50  0000 C CNN
+F 1 "MPXV7025DP" H 5750 3924 50  0000 C CNN
+F 2 "Sensor_Pressure:MPXV7025DP" H 5750 3900 50  0001 C CNN
+F 3 "" H 5750 3900 50  0001 C CNN
+	1    5750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FA4A7A1
+P 7350 3800
+F 0 "C1" H 7465 3846 50  0000 L CNN
+F 1 "1.0 uF" H 7465 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 7388 3650 50  0001 C CNN
+F 3 "~" H 7350 3800 50  0001 C CNN
+	1    7350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FA4BCF0
+P 6750 3800
+F 0 "C2" H 6865 3846 50  0000 L CNN
+F 1 "0.01 uF" H 6865 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3650 50  0001 C CNN
+F 3 "~" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FA4C07D
+P 6750 3200
+F 0 "C3" H 6865 3246 50  0000 L CNN
+F 1 "470 pF" H 6865 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3050 50  0001 C CNN
+F 3 "~" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FA4D8A9
+P 6750 3950
+F 0 "#PWR0102" H 6750 3700 50  0001 C CNN
+F 1 "GND" H 6755 3777 50  0000 C CNN
+F 2 "" H 6750 3950 50  0001 C CNN
+F 3 "" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3650 6450 3650
+$Comp
+L power:GND #PWR0103
+U 1 1 5FA5152A
+P 7350 3950
+F 0 "#PWR0103" H 7350 3700 50  0001 C CNN
+F 1 "GND" H 7355 3777 50  0000 C CNN
+F 2 "" H 7350 3950 50  0001 C CNN
+F 3 "" H 7350 3950 50  0001 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3500 7200 3500
+$Comp
+L power:GND #PWR0104
+U 1 1 5FA54738
+P 7200 3500
+F 0 "#PWR0104" H 7200 3250 50  0001 C CNN
+F 1 "GND" V 7205 3372 50  0000 R CNN
+F 2 "" H 7200 3500 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3350 6750 3350
+$Comp
+L power:GND #PWR0105
+U 1 1 5FA56C29
+P 6750 3050
+F 0 "#PWR0105" H 6750 2800 50  0001 C CNN
+F 1 "GND" H 6755 2877 50  0000 C CNN
+F 2 "" H 6750 3050 50  0001 C CNN
+F 3 "" H 6750 3050 50  0001 C CNN
+	1    6750 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 3650 7350 3650
+Connection ~ 6750 3650
+Wire Wire Line
+	6750 3350 7550 3350
+Connection ~ 6750 3350
+Wire Wire Line
+	6450 3850 6450 3650
+Connection ~ 6450 3650
+Wire Wire Line
+	6450 3650 6750 3650
+Text GLabel 7550 3350 2    50   Input ~ 0
+output
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5FA5E684
+P 8750 3450
+F 0 "J?" H 8778 3476 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8778 3385 50  0000 L CNN
+F 2 "" H 8750 3450 50  0001 C CNN
+F 3 "~" H 8750 3450 50  0001 C CNN
+	1    8750 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 3350 0    50   Input ~ 0
++5V
+Text GLabel 8550 3450 0    50   Input ~ 0
+output
+$Comp
+L power:GND #PWR?
+U 1 1 5FA6231C
+P 8550 3550
+F 0 "#PWR?" H 8550 3300 50  0001 C CNN
+F 1 "GND" H 8555 3377 50  0000 C CNN
+F 2 "" H 8550 3550 50  0001 C CNN
+F 3 "" H 8550 3550 50  0001 C CNN
+	1    8550 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 3850 3    50   Input ~ 0
++5V
+$EndSCHEMATC
