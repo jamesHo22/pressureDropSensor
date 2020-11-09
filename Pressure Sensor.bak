@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Pressure Sensor-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5FA4A7A1
 P 7350 3800
 F 0 "C1" H 7465 3846 50  0000 L CNN
 F 1 "1.0 uF" H 7465 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 7388 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 3650 50  0001 C CNN
 F 3 "~" H 7350 3800 50  0001 C CNN
 	1    7350 3800
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5FA4BCF0
 P 6750 3800
 F 0 "C2" H 6865 3846 50  0000 L CNN
 F 1 "0.01 uF" H 6865 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 3650 50  0001 C CNN
 F 3 "~" H 6750 3800 50  0001 C CNN
 	1    6750 3800
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5FA4C07D
 P 6750 3200
 F 0 "C3" H 6865 3246 50  0000 L CNN
 F 1 "470 pF" H 6865 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 3050 50  0001 C CNN
 F 3 "~" H 6750 3200 50  0001 C CNN
 	1    6750 3200
 	1    0    0    -1  
@@ -121,12 +122,12 @@ Wire Wire Line
 Text GLabel 7550 3350 2    50   Input ~ 0
 output
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J1
 U 1 1 5FA5E684
 P 8750 3450
-F 0 "J?" H 8778 3476 50  0000 L CNN
+F 0 "J1" H 8778 3476 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8778 3385 50  0000 L CNN
-F 2 "" H 8750 3450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8750 3450 50  0001 C CNN
 F 3 "~" H 8750 3450 50  0001 C CNN
 	1    8750 3450
 	1    0    0    -1  
@@ -136,10 +137,10 @@ Text GLabel 8550 3350 0    50   Input ~ 0
 Text GLabel 8550 3450 0    50   Input ~ 0
 output
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FA6231C
 P 8550 3550
-F 0 "#PWR?" H 8550 3300 50  0001 C CNN
+F 0 "#PWR0101" H 8550 3300 50  0001 C CNN
 F 1 "GND" H 8555 3377 50  0000 C CNN
 F 2 "" H 8550 3550 50  0001 C CNN
 F 3 "" H 8550 3550 50  0001 C CNN

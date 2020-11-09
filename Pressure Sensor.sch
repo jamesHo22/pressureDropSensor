@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Pressure Sensor-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5FA4A7A1
 P 7350 3800
 F 0 "C1" H 7465 3846 50  0000 L CNN
 F 1 "1.0 uF" H 7465 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 7388 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 3650 50  0001 C CNN
 F 3 "~" H 7350 3800 50  0001 C CNN
 	1    7350 3800
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5FA4BCF0
 P 6750 3800
 F 0 "C2" H 6865 3846 50  0000 L CNN
 F 1 "0.01 uF" H 6865 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 3650 50  0001 C CNN
 F 3 "~" H 6750 3800 50  0001 C CNN
 	1    6750 3800
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5FA4C07D
 P 6750 3200
 F 0 "C3" H 6865 3246 50  0000 L CNN
 F 1 "470 pF" H 6865 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6788 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 3050 50  0001 C CNN
 F 3 "~" H 6750 3200 50  0001 C CNN
 	1    6750 3200
 	1    0    0    -1  
